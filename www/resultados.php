@@ -64,7 +64,7 @@ $result = mysqli_query($mysqli, $query);
       echo "<td>".$res['votos']."</td>";
       echo "</tr>";
     }
-    mysqli_close($msqli);
+    mysqli_close($mysqli);
     ?>
 
     </table>

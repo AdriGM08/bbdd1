@@ -39,7 +39,7 @@ include_once("config.php");
         mysqli_query($mysqli, "UPDATE alumno SET vota_a=$vota_a,fecha_hora_voto='$fecha_hora_voto' WHERE id=$id");
     }
     
-    mysqli_close($msqli);
+    mysqli_close($mysqli);
     ?>
 
     </div>

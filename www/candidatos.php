@@ -58,7 +58,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM alumno ORDER BY apellido1,apellid
       echo "<td><a class=\"btn btn-info\" href=\"votar.php?id=$id&vota_a=".$res['id']."\" role=\"button\">Votar</a></td>";
       echo "</tr>";
     }
-    mysqli_close($msqli);
+    mysqli_close($mysqli);
     ?>
 
     </table>
